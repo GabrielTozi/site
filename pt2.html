@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web para todos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="sidenote">
+        pontos de interesse
+        <ul>
+            <li>
+                <a href="#01">Acessibilidade web para pessoas cegas</a>
+            </li>
+            <li>
+                <a href="#02">Acessibilidade para pessoas com deficiência</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="banner"></div>
+        <br>
+        <h1>
+            Acessibilidade em web
+            <hr>
+        </h1>
+        <div class="fundo">
+            <h2>Como os sites acessíveis são construídos?</h2>
+            <hr>
+        </div>
+        <br>
+        <div class="fundo">
+            <p>
+                <img src="imagens/img5.png" width="300" height="200">
+                Tenha em mente que há pessoas com condições visuais como o daltonismo ou mesmo que não são capazes de
+                enxergar.
+                Por isso, não use indicações de cor como prioridade quando precisar transmitir um significado ou
+                mensagem.
+                Prefira o texto ou ícones com recursos de acessibilidade.
+                <br><br>
+                Atente inclusive para o contraste entre o texto e o fundo, para não dificultar a leitura.
+                <br><br><br>
+            </p>
+        </div>
+        <br>
+        <div class="fundo">
+            <ul>
+                <li>
+                    <strong>Use o atributo alt nas imagens;</strong>
+                </li>
+                O alt é um atributo da tag que tem a função de descrever o que aparece na imagem.
+                Deve ser usado para auxiliar o usuário que usa leitores de tela e também aquele
+                que tem uma conexão lenta e opta por não exibir figuras nos sites que visita.
+                <br>
+                <li>
+                    <strong>Atente a alguns detalhes dos formulários;</strong>
+                </li>
+                Se o site que estiver desenvolvendo tiver um ou mais formulários, associe rótulos aos campos.
+                Além disso, identifique claramente quais são os campos obrigatórios e use um método acessível
+                para alertar o usuário quando houver algum erro.
+                <br>
+                <li>
+                    <strong>Permita que o site se adapte à tecnologia de acesso do usuário;</strong>
+                </li>
+                Use um design responsivo para permitir que o site se adapte ao tamanho da tela do usuário.
+                Lembrando que é importante manter a possibilidade de ele dar zoom, afinal, há pessoas com dificuldades
+                de visão que precisam ampliar os elementos para enxergar o que está na tela.
+                <br>
+                <li>
+                    <strong>Garanta que todos os elementos interativos estejam acessíveis ao teclado.</strong>
+                </li>
+                Lembre-se que o mouse e a tela sensível ao toque do smartphone não são os únicos meios de navegar em um
+                site.
+                Então, ao criar efeitos interativos, considere que esses podem não ser os melhores métodos para o
+                visitante,
+                cuja preferência — ou única opção — seja o teclado.
+                <br>
+            </ul>
+        </div>
+        <br>
+        <div class="fundo">
+            <h2>A importância dos padrões web para a acessibilidade de sites</h2>
+            <hr>
+        </div>
+        <br>
+        <div class="fundo">
+            <p>
+                <img src="imagens/img6.png" width="300" height="200"
+                    alt="papel do desenvolvedor para essas acessibilidades">
+                Atualmente ouve-se falar muito em padrões web e acessibilidade entre os
+                desenvolvedores de
+                sites. Entretanto, o entendimento
+                que cada um traz desses conceitos é diverso e muitas vezes indefinido.
+                <br><br>
+                Os Padrões web sempre estão associados ao código da página web e
+                às recomendações do W3C especificadas para ele.
+                Para podermos desenvolver um site genuinamente de boa qualidade e
+                preparado para receber o extra de acessibilidade, os padrões
+                desenvolvidos em seu código devem abranger os seguintes itens:
+                <br><br>
+                Código html/xhtml e CSS válidos;
+                Separação em camadas: conteúdo, apresentação e comportamento.
+                Código (X)HTML semântico.
+                Para demonstrar a importância desses itens dos padrões web
+                para a acessibilidade de
+                sites, temos de especificar
+                para quem seja acessibilidade web, conceito culturalmente
+                só associado ao acesso de pessoas com deficiência visual.
+                “Para quem serve a acessibilidade?” é uma pergunta que
+                nos leva a várias questões e que nos ajudará a entender
+                a relação entre web standards
+                e acessibilidade. Podemos dividi-la em:
+            </p>
+        </div>
+        <br>
+        <div class="fundo">
+            <p>
+                <ol>
+                    <li>
+                        Acessibilidade web para pessoas cegas;
+                    </li>
+                    <li>
+                        Acessibilidade web para pessoas com deficiência;
+                    </li>
+                </ol>
+            </p>
+        </div>
+        <br>
+        <div class="fundo">
+            <h3 id="01">01- Acessibilidade web para pessoas cegas</h3>
+            <p>
+                Com certeza o foco principal do desenvolvimento de sites
+                acessíveis é o acesso de pessoas com deficiência ao conteúdo
+                de informação e serviços prestados em um site. Entretanto,
+                criamos no Brasil uma cultura de que acessibilidade web
+                seria somente para pessoas com deficiência visual e, mais
+                ainda, especificamente para pessoas cegas.
+                <br><br>
+                Dessa forma, para alguns desenvolvedores, testar acessibilidade
+                de um site significava
+                quase que exclusivamente pedir a uma pessoa cega que
+                navegasse com seu
+                software de fala pela
+                página e desse o seu ok nela. Este é, sem dúvida, um dos
+                itens, entre inúmeros outros, da metodologia proposta pelo
+                W3C/WCAG para testarmos a acessibilidade de uma página.
+                No entanto, este item, isoladamente, acaba por incorrer
+                em inúmeros erros: nem todo o leitor de tela tem a mesma
+                qualidade e funciona da mesma forma, fazendo com que o
+                teste de uma pessoa cega não especializada possa ser somente
+                válido para o leitor de tela ou tecnologia assistiva que essa
+                pessoa utiliza.
+            </p>
+        </div>
+        <br>
+        <div class="fundo">
+            <h3 id="02">02- Acessibilidade para pessoas com deficiência</h3>
+            <p>
+                Ao conhecermos as Diretrizes de Acessibilidade de Conteúdos Web
+                em suas duas versões, 1.0 e 2.0, percebemos a ênfase que os
+                itens de acessibilidade desses documentos dão aos acessos não
+                padronizados de pessoas que, em sua maioria, possuem deficiência,
+                como a deficiência visual, auditiva, cognitiva e motora. Nota-se, de pronto,
+                que as recomendações não se restringiram à deficiência visual
+                e nem mesmo a alguma tecnologia assistiva específica,
+                apesar de citá-las ao longo desses documentos.
+                <br><br>
+                Assim, por exemplo, ao destacarem os equivalentes textuais, o fizeram não só
+                como itens textuais alternativos para imagens (deficiência
+                visual), como também para sons (deficiência auditiva).
+                Esses itens combinados podem mesmo auxiliar, e muito,
+                o acesso de pessoas surdocegas, usuárias de display-braille.
+            </p>
+        </div>
+        <br>
+        <footer>
+            <a href="index.html"><img id="seta" src="imagens/seta.png" alt="voltar" width="15" height="15"></a>
+            1 <u>2</u> 3 <a href="pt3.html"><img id="seta2" src="imagens/seta.png" alt="avançar" width="15"
+                    height="15"></a>
+        </footer>
+    </div>
+</body>
+
+</html>
